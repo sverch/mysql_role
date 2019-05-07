@@ -1,0 +1,3 @@
+# This is required for molecule to work in a virtualenv on systems running
+# selinux.  See https://github.com/ansible/molecule/issues/1724 for details.
+selinux==0.1.3

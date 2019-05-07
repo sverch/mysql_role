@@ -112,6 +112,12 @@ mysql> show databases;
 4 rows in set (0.00 sec)
 ```
 
+> Note: If your system has selinux installed, you might see "Aborting, target
+> uses selinux but python bindings (libselinux-python) aren't installed!".  If
+> this happens, also install the dependencies in
+> `test-requirements-selinux.txt`.  See
+> https://github.com/ansible/molecule/issues/1724 for details.
+
 ## Built With
 
 ![Ansible](https://img.shields.io/badge/ansible-2.4.3.0-green.svg)
